@@ -1,0 +1,23 @@
+
+steps:
+
+https://www.nbinteract.com/tutorial/tutorial_github_setup.html
+
+
+This is git repo:
+
+  --- git add .
+  --- git commit -m "update"
+  --- git status
+  --- git pull
+  --- git push
+
+The generared interactive html takes a long time to initialize!!
+
+
+To hide the codes in the webpage when displaying:
+
+--- open the html webpage
+--- F12 - activate console
+---  document.querySelectorAll(\"div.input\").forEach(function(a){a.remove()})   
+	run this line in the console, then the codes will be hidden, codes will be shown when refresh the page!
